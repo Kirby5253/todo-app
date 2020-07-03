@@ -69,7 +69,7 @@ export default {
     editTodoItem(todo) {
       var index = this.todos.indexOf(todo);
       this.todos[index].edit = true;
-      console.log(todo);
+      
     },
     editCompleted(todo) {
       var index = this.todos.indexOf(todo);
