@@ -1,1 +1,73 @@
-html{display:flex;justify-content:center}body{color:#fff;width:80%;font-size:24px;max-width:1200px}p{margin:0;margin-right:40px}.todo-content{display:flex;align-items:center;font-size:18px}.card{padding:20px;margin-bottom:5px}.complete-checkbox{margin-right:20px}.delete-button{position:absolute;right:20px;background-color:#424242;border:none;color:#fff;padding:4px}.delete-button:hover{border-radius:18px;background-color:#636363;cursor:pointer;color:#fff}.todo-input{margin-top:20px}.edit-box{height:27px;left:55px;width:400px;top:16px}.edit-box,.edit-button{display:none;position:absolute}.edit-button{margin-right:20px;background-color:#424242;border:none;padding:4px}.edit-button:hover{border-radius:18px;background-color:#636363;cursor:pointer;color:#fff}.editing{display:inline}.complete{opacity:40%;text-decoration:line-through}
+html {
+	display: flex;
+	justify-content: center;
+}
+body {
+	color: #fff;
+	width: 80%;
+	font-size: 24px;
+	max-width: 1200px;
+}
+p {
+	margin: 0;
+	margin-right: 40px;
+}
+.todo-content {
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+}
+.card {
+	padding: 20px;
+	margin-bottom: 5px;
+}
+.complete-checkbox {
+	margin-right: 20px;
+}
+.delete-button {
+	position: absolute;
+	right: 20px;
+	background-color: #424242;
+	border: none;
+	color: #fff;
+	padding: 4px;
+}
+.delete-button:hover {
+	border-radius: 18px;
+	background-color: #636363;
+	cursor: pointer;
+	color: #fff;
+}
+.todo-input {
+	margin-top: 20px;
+}
+.edit-box {
+	height: 27px;
+	left: 55px;
+	width: 400px;
+	top: 16px;
+}
+.edit-box,
+.edit-button {
+	display: none;
+	position: absolute;
+}
+.edit-button {
+	margin-right: 20px;
+	background-color: #424242;
+	border: none;
+	padding: 4px;
+}
+.edit-button:hover {
+	border-radius: 18px;
+	background-color: #636363;
+	cursor: pointer;
+	color: #fff;
+}
+.editing {
+	display: inline;
+}
+.complete {
+	opacity: 40%;
+	text-decoration: line-through;
+}
