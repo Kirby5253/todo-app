@@ -29,11 +29,9 @@
               @keydown.enter="editCompleted(todo)"
             />
           </span>
-          <button
-            class="edit-button"
-            :class="{editing: todo.edit}"
-            @click="editCompleted(todo)"
-          >Cancel</button>
+          <button class="edit-button" :class="{editing: todo.edit}" @click="editCompleted(todo)">
+            <md-icon>cancel</md-icon>
+          </button>
           <button class="delete-button" @click="removeTodo(todo)">
             <md-icon>delete</md-icon>
           </button>
@@ -103,6 +101,7 @@ body {
   color: white;
   width: 80%;
   font-size: 24px;
+  max-width: 1200px;
 }
 p {
   margin: 0;
@@ -126,9 +125,10 @@ p {
   background-color: #424242;
   border: none;
   color: white;
+  padding: 4px;
 }
 .delete-button:hover {
-  border-radius: 5px;
+  border-radius: 18px;
   background-color: #636363;
   cursor: pointer;
   color: white;
@@ -139,14 +139,24 @@ p {
 .edit-box {
   display: none;
   position: absolute;
-  left: 58px;
+  height: 27px;
+  left: 55px;
   width: 400px;
+  top: 16px;
 }
 .edit-button {
   display: none;
   position: absolute;
-  right: 75px;
   margin-right: 20px;
+  background-color: #424242;
+  border: none;
+  padding: 4px;
+}
+.edit-button:hover {
+  border-radius: 18px;
+  background-color: #636363;
+  cursor: pointer;
+  color: white;
 }
 .editing {
   display: inline;
